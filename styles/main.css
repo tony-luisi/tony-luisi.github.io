@@ -7,20 +7,20 @@ body {
   font-size: 20px;
   font-family: helvetica;
   padding:10px auto 0 auto;
-  width: 1500px;
+  width: 75%;
   margin:auto;
 }
 
-A:link {
+a.nav:link {
   COLOR: #8F5933; TEXT-DECORATION: none;
 }
-A:visited {
+a.nav:visited {
   COLOR: #8F5933; TEXT-DECORATION: none;
 }
-A:active {
+a.nav:active {
   COLOR: #8F5933; TEXT-DECORATION: none;
   }
-A:hover {
+a.nav:hover {
   COLOR: #DD861F; TEXT-DECORATION: none;
   }
 
@@ -70,4 +70,15 @@ p {
 .image {
 
 
+}
+
+div.sidebar {
+  position:absolute;
+  top:190px; bottom:0; right:0;
+  width:200px;
+
+}
+
+p.sidebar {
+  color: blue;
 }
