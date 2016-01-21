@@ -25,7 +25,7 @@ a.nav:hover {
   }
 
 
-p, li {
+li {
   color: #FFAAAA;
 }
 
@@ -50,6 +50,7 @@ p {
   color: white;
   padding: 5px;
 }
+
 .header {
   border-bottom: 5px solid #FFAAAA;
   text-align: right;
@@ -145,21 +146,4 @@ p {
 #primary-nav-wrap ul li:hover > ul
 {
   display:block
-}
-
-
-.image {
-
-
-}
-
-div.sidebar {
-  position:absolute;
-  top:190px; bottom:0; right:0;
-  width:200px;
-
-}
-
-p.sidebar {
-  color: blue;
 }
