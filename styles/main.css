@@ -36,6 +36,7 @@
     width: 100%;
     height: 6.5rem;
     background: #635A7B;
+    opacity: 0.9;
     z-index: 99;
     border-top: 1px solid #635A7B;
     border-bottom: 1px solid #635A7B; }
