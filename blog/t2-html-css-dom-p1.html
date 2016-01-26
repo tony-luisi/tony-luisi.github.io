@@ -1,55 +1,67 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>HTML CSS DOM Part 1</title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-  
-  <body>
-      <div id="primary-nav-wrap">
+<html lang="en">
+<head>
 
-      <ul>
-        <li>
-          <a href="../index.html">HOME</a>
-        </li>
-        <li class="current-menu-item">
-          <a href="#">BLOG</a>
-          <ul>
-            <li>
-              <a href="../blog/c1-reflection-blog.html">REFLECTIONS</a>
-            </li>
-            <li>
-              <a href="../blog/c1-time-and-habits-blog.html">TIME&HABITS</a>
-            </li>
-            <li>
-              <a href="../blog/t2-html-css-dom-p1.html">TECHNICAL (Part 1)</a>
-            </li>
-            <li>
-              <a href="../blog/t2-html-css-dom-p2.html">TECHNICAL (Part 2)</a>
-            </li>
-            <li>
-              <a href="../blog/c2-emotional-intelligence.html">Emotional Intelligence</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="../contact.html">CONTACT</a>
-        </li>
-      </ul>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="../styles/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section class="navbar">
+
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a class="navbar-link" href="../index.html">HOME</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="./index.html">Blog</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="../projects/index.html">Projects</a>
+          </li>
+        </ul>
+
+        
       </div>
+    </section>
+    <section class="header">
+      <div class="container">
+        <h1 style="text-align: center">Tēnā Koe</h1>
+        <h6 class=title style="text-align: center"><em>Your journey starts here! | Anei te tīmatanga o tō hīkoi!</em></h6>
+      </div>
+    </section>
 
-    <div class="header">
-      
-      <h1>Tony Luisi</h1>
-      <em>Anei te tīmatanga o tō hīkoi!</em>
-      <em>Your journey starts here!</em>
-    </div>
-
-    <div class="main">
+    <div class="container">
+      <div class="twelve columns" id="post">
         <h1>Technical Blog - Part 1</h1>
-        <h2>My EDA experience</h2>
-        <h3>Wishlist</h3>
+        <h5>Week 2</h5>
+        <h4>Wishlist</h4>
         
         <p>
         Current Wishlist is as follows
@@ -61,7 +73,7 @@
           <li>Smooth page transitions (especially when going from one page to another)</li>
         </ul>
 
-        <h3>HTML, CSS and DOM analogy</h3>
+        <h4>HTML, CSS and DOM analogy</h4>
         
         <p>
         The way I think of the describing HTML, CSS and DOM would be in terms of baking a cake.
@@ -80,7 +92,7 @@
         </p>
         
 
-        <h3>What is meant by boxifying design?</h3>
+        <h4>What is meant by boxifying design?</h4>
         
         <p>
         Boxifying design is simply a way to breakdown the structure of a web page. Since everything in a web page is essentially 'a box'. Boxifying a web page helps to visualise the different components that make up a web page, which helps to determine how exactly a web page has been set out. This is especially helpful when you need to turn a web page design into an actual page.
@@ -98,19 +110,20 @@
         <li>Border: The border around the text/picture.</li>
         <li>Margin: The space around the border.</li>
         </ol>
-
-
- 
-
-      
+     </div>
     </div>
 
+      
+    </section>
+    <section class="footer">
+      <div class="container">
+        <div class="twelve columns">
+          <h6>TONY LUISI</h6>
+        </div>
+      </div>
+    </section>
 
-    
-
-    
-    
-    <!-- this is a comment. -->
-  
-  </body>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
 </html>
