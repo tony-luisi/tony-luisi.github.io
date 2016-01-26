@@ -156,6 +156,16 @@
   background-color: #E4E4E4;
 }
 
+#post h1{
+  background-color: #2A1F64;
+  color: white;
+  border-color: white;
+  border-width: 10px;
+  text-align: center;
+  border-radius: 0px 0px 15px 15px;
+
+}
+
 #blog *{
 
   border-radius: 50%;
