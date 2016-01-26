@@ -1,11 +1,17 @@
 
 
-.header, .footer{
+
+.header{
   background-color: #2A1F64;
   color: white;
 }
 
-@media (min-width: 750px) {
+.footer {
+  background-color: #2A1F64;
+  color: white;
+}
+
+
   /* Navbar */
   .navbar + .docs-section {
     border-top-width: 0; }
@@ -117,7 +123,7 @@
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
-}
+
 
 #about *{
 
@@ -136,4 +142,8 @@
   text-align: center;
   vertical-align: middle;
 
+}
+
+#panorama *{
+  max-width: 100%;
 }
