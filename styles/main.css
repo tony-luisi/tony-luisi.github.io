@@ -8,6 +8,7 @@
 
 .footer {
   background-color: #2A1F64;
+  text-align: center;
   color: white;
 }
 
@@ -146,4 +147,20 @@
 
 #panorama *{
   max-width: 100%;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
 }
+
+  .contact-link {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: white;
+    text-align: center; }
+  .contact-link.active {
+    color: #33C3F0; }
