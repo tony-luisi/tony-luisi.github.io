@@ -4,6 +4,7 @@
 .header{
   background-color: #2A1F64;
   color: white;
+    margin-top: 6.5rem;
 
 }
 
@@ -14,6 +15,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
+
 }
 
 .footer {
@@ -28,6 +30,8 @@
     border-top-width: 0; }
   .navbar,
   .navbar-spacer {
+    position: fixed;
+    top: 0px;
     display: block;
     width: 100%;
     height: 6.5rem;
