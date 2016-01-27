@@ -166,6 +166,10 @@
 
 }
 
+#post img{
+  width: 100%;
+}
+
 #blog *{
 
   border-radius: 50%;
