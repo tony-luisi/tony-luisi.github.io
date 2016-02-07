@@ -178,6 +178,14 @@
   margin-right: auto;
 }
 
+#js img{
+  width: 20rem;
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #blog *{
 
   border-radius: 50%;
