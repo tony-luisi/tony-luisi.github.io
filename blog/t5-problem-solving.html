@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Problem Solving</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="../styles/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section class="navbar">
+
+    <div class="container">
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <a class="navbar-link" href="../index.html">HOME</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="./index.html">Blog</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="../projects/index.html">Projects</a>
+        </li>
+      </ul>
+
+      
+    </div>
+  </section>
+  <section class="header">
+    <div class="container">
+      <h1 style="text-align: center"><strong>Tēnā Koe</strong></h1>
+      <img src="../images/whitelogo.png" alt="">
+      <h6 class=title style="text-align: center"><em>Your journey starts here! | Anei te tīmatanga o tō hīkoi!</em></h6>
+    </div>
+  </section>
+  <section class="main">
+    <div class="container">
+      <div class="twelve columns" id="post">
+        <h1>Problem Solving</h1>
+        <div class="row" id="js">
+          <img src="../images/code_window.png">
+        </div>
+        <h5>Week 5</h5>
+        <h4>Tell your non-tech friend a story about a time you got blocked on a simple problem, and solved it in an elegant way:</h4>
+        
+        <p>
+          I suppose doing the javascript racer project was challenging in a number of ways. One particular example was desgining the number of players. I had designed it to take multiple players from 1 to 9. I didn't realise how challenging this proved to be, especially because I would possibly need to write code to cater for multiple players, including:
+        </p> 
+        <ol>
+          <li>Creating a race track for multiple players. </li>
+          <li>Making multiple players move across the race track. </li>
+          <li>Programming each key press to make the players move. </li>
+        </ol>
+
+        <p>
+          Consequently, I may have needed to write a lot of repeating code (i.e. the same code for each player).
+        </p>
+
+        <p>
+          To solve this, I could have just changed my design (which would have been an easier solution), however, I wanted to see if it was possible to solve. Luckily enough I did come up with an elegant solution, which was to assign each player a number key corresponding to the player number (i.e. Player 1 is assigned the number 1 key, Player 2 the number 2 key, etc).
+        </p>
+
+        <p>
+          This ultimately allowed me to write a single set of code, and iterate through each of the players using looping code. While at the beginning of the process I felt daunted, solving it game me a great sense of accomplishment, and a great feeling of satisfaction. I also learned a few things in Javascript that I didn't know before (e.g. how to emulate computer key presses).
+        </p>
+
+        <h4>Reflect on how confident you feel using the problem solving techniques and process.</h4>
+        
+        <p>
+          I'm pretty confident when it comes to using most of the problem solving techniques. Ultimately though I use them each at different stages:
+        </p>
+
+        <ul>
+          <li>Pseudocode: Ususally at the beginning when I'm conceptualising a solution. </li>
+          <li>Trying something: Usually before I have a concrete solution or method of implementation, i'll use this to test an idea I may have.</li>
+          <li>Rubber Ducky method: Maybe if I'm really stuck on a specific task (I don't usually use this method).</li>
+          <li>Console logging: Generally only log to the console when I'm debugging a piece of code that isn't quite right.</li>
+          <li>Googling: Probably what I use the most, especially because I can't remember all the css attributes, etc.</li>
+          <li>Asking your peers for help: Haven't used much yet, probably because we aren't at bootcamp yet.</li>
+          <li>Asking coaches for help: Same as above.</li>
+          <li>Improving your process with reflection: Not used a lot, generally at the end once I've finished.</li>
+        </ul>
+
+        <h4>Using the JS Array docs as a starting point, describe what these functions do in your own words:</h4>
+        
+        <p>
+          .map(): The .map() function is used when you want to perform a specific task on each element of an array. For example, let's say that I wanted to "cut" every orange, and I had 50 oranges. Instead of writing 50 separate pieces of code to cut each orange, I would use the map function and only write one piece of code, and pass through the 50 oranges.
+        </p>
+
+        <p>
+          .filter(): The .filter() function allows you to essentially filter an array using specific criteria. For example, if I wanted to return only oranges from an array of fruit, I would use the filter function to very easily and quickly return only an array of oranges.
+        </p>
+
+        <p>
+          .reduce(): The .reduce() function is able to perform a task on every element of an array, and return the aggregated answer. For example, let's say I had 50 baskets of oranges, with each basket containing a different number of oranges. If I wanted to know how many oranges I had in total, instead of going through and meticulously counting every single orange in each basket, I could use the reduce function to return to me the total number of oranges in a few lines of code.
+        </p>
+
+      </div>
+    </div>
+
+    
+  </section>
+  <section class="footer">
+    <div class="container">
+      <div class="twelve columns">
+        <h6>TONY LUISI</h6>
+      </div>
+    </div>
+  </section>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
