@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Testing</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="../styles/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section class="navbar">
+
+    <div class="container">
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <a class="navbar-link" href="../index.html">HOME</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="./index.html">Blog</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="../projects/index.html">Projects</a>
+        </li>
+      </ul>
+
+      
+    </div>
+  </section>
+  <section class="header">
+    <div class="container">
+      <h1 style="text-align: center"><strong>Tēnā Koe</strong></h1>
+      <img src="../images/whitelogo.png" alt="">
+      <h6 class=title style="text-align: center"><em>Your journey starts here! | Anei te tīmatanga o tō hīkoi!</em></h6>
+    </div>
+  </section>
+  <section class="main">
+    <div class="container">
+      <div class="twelve columns" id="post">
+        <h1>Testing</h1>
+        <div class="row" id="js">
+          <img src="../images/black-box.png">
+        </div>
+        <h5>Week 5</h5>
+        <h4>Describe all the use cases for paratheses, brackets, braces, single quotes and double quotes:</h4>
+
+        <h5><strong>parantheses - ( )</strong></h5>
+        
+        <p>Grouping operations togther (i.e. in order to give priority to an operation). Generally used to  perform order of operations when doing mathematical expressions in Javascript (e.g. to carry out addition before multiplication):</p>
+
+        <pre><code>
+          a = 2 * (2 + 3); //10
+
+          as opposed to:
+
+          a = (2 * 2) + 3; //7
+        </code></pre>
+
+        <p>Grouping expressions togther (i.e. in order to denote a single expression). When evaluating logic expressions or loops, parantheses are useful for grouping together that expression:</p>
+
+        <pre><code>
+          if (the game has finished) {
+            end the game;
+            determine the winner;
+          } else {
+            next round;
+          }
+        </code></pre>
+
+        <p>To contain a list of parameters when calling a function (parameters aren't needed, even though the paranetheses are). When carrying out a specific task (known as calling a function), parantheses are used to define criteria for that task (for example, I have a function for brushing my teeth, and I might want to specific toothbrush brand and toothpaste brand):</p>
+
+        <pre><code>
+          brushTeeth("Reach", "Colgate");
+        </code></pre>
+
+        <h5><strong>brackets - [ ]</strong></h5>
+
+        <p>To access array elements. For example, my Grandfather has a pill box labelled Monday to Friday so he remembers to take his pills. If he wanted to take the pills from the first day in his pillbox he might use the following expression:</p>
+
+        <pre><code>
+          grandfather.takepills(pillbox[0]);
+        </code></pre>
+
+        <p>To access object properties. Using the example above about my Gradfather, he could also use the following expression to take his pills (especially since his pill is labeled by days of the week):</p>
+
+        <pre><code>
+          grandfather.takepills(pillbox["Monday"]);
+        </code></pre>
+
+        <h5><strong>braces - { }</strong></h5>
+
+        <p>When creating a new object (an object is essentially a container which can be used to encapsulate properties/actions):</p>
+
+        <pre><code>
+          var car = {}; //you might choose to give your car a colour property
+        </code></pre>
+
+        <p>When grouping statements within a block (especially useful for loops and conditional statements). If braces are not used, then only the next line is executed as part of the loop / statement:</p>
+
+        <pre><code>
+          while (something happens) {
+            do this..
+            do this..
+            do this..
+          }
+        </code></pre>
+
+        <h5><strong>single quotes - '' / double quotes - ""</strong></h5>
+
+        <p>Encapsulating text within a string:</p>
+
+        <pre><code>
+          var string1 = "This is a valid string";
+          var string2 = 'This is also a valid string';
+        </code></pre>
+
+        <p>While not a different use case, you can use them together to 'escape' your strings:</p>
+
+        <pre><code>
+          var string1 = "This is Tom's house!";
+        </code></pre>
+
+      </div>
+    </div>
+
+    
+  </section>
+  <section class="footer">
+    <div class="container">
+      <div class="twelve columns">
+        <h6>TONY LUISI</h6>
+      </div>
+    </div>
+  </section>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
