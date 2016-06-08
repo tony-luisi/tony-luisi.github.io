@@ -1,0 +1,43 @@
+* {
+  font-family: 'Bree Serif', serif;
+}
+
+.typing-box {
+  text-align: center;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #A33643;
+  border-color: #A33643;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  border-style: solid;
+  border-color: #A33643;
+}
+
+.singleProject {
+  width: 50%;
+  display: flex;
+  align-content: center;
+}
+
+.projectImage {
+  width: 100%;
+}
